@@ -1,0 +1,79 @@
+.dashboard8 {
+    margin-top: 70px; /* Adjust the margin based on your navbar height */
+    padding: 20px;
+  }
+  
+  .dashboard8cont {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .divproducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .divpro {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .proimg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .procat {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .proname {
+    font-weight: bold;
+  }
+  
+  .proprice {
+    font-size: 16px;
+    margin-top: 5px;
+    color: green;
+  }
+  
+  .selectedProductDetails {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .selectedProductDetails > div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+  
+  .headviewpro {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .closeicon {
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 20px;
+    color: #333;
+  }
+  

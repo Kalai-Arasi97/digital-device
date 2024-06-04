@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+}
+.adminloginmain{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* .adminlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40%;
+    background-color: gray;
+} */
+
+.adminlogin{
+    height: 60%;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(236, 237, 233, 0.3);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(86, 216, 2541, 0.2);
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+        text-align: center;
+}
+.adminlogin:hover{
+    /* transform: translateY(-5px); */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.loginimg img{
+    height: 100px;
+    width: 100px;
+    /* padding-bottom: 20px; */
+}
+.labname{
+    padding-right: 15px;
+}
+.inpname1{
+    margin-left: 8px;
+    height: 20px;
+}
+.inpname2{
+    height: 20px;
+}
+.adsub button{
+    height: 35px;
+    width: 70px;
+    font-size: 17px;
+}
+.adsub p{
+    font-size: 15px;
+    color: rgb(47, 98, 216);
+}
